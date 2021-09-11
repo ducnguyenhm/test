@@ -1,0 +1,110 @@
+body{
+  border-left : 1px solid black;
+  border-right : 1px solid black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.hea{
+  font-family: Arial;
+  color: #cc3300;
+  font-size: 30px;
+}
+
+.date{
+  float: right;
+  font-size: 15px;
+}
+
+.he{
+  border: 28px solid rgb(0, 51, 77);
+  background-color: rgb(0, 51, 77);
+}
+.headers{
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  color: white;
+  padding-top : 40px; 
+}
+
+.sau{
+  padding-top: -10px;
+  font-family: Calibri;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+a:hover{
+  background-color:gray;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-direction: row;
+}
+.container1{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-direction: row;
+}
+.flexitem_1 {
+  flex: 65%;
+  font-size: 17px;
+  
+}
+
+.flexitem1 {
+  flex: 65%;
+  font-size: 17px;
+  border-right: 1px solid black;
+  padding-right : 10%;
+}
+
+.flexitem2 {
+  padding-left: 10%;
+  flex:35%;
+  font-size: 17px;
+  height: 150px;
+  width: 200px;
+}
+img{
+  
+  width: 65%;
+  height: 85%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+@media(max-width: 800px) {
+  .flexitem2{
+    padding-left: 0%;
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+  }
+  .flexitem1{
+    border-right: white;
+  }
+
+  img{
+    margin :20%;
+  }
+  body{
+    margin:0%;
+    padding:0%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container1{
+    flex-direction: column;
+  }
+}
